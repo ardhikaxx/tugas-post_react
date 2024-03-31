@@ -8,23 +8,23 @@ import React from 'react';
 
 const router = createBrowserRouter([
     {
-      path: "/", // Route untuk halaman utama
-      element: <LandingPageView/>, // Menggunakan LandingPageView sebagai halaman utama
+      path: "/",
+      element: <LandingPageView/>,
     },
     {
-      path: "/about", // Route untuk halaman about
+      path: "/about",
       element: <AboutPageView />,
     },
     {
-      path: "/products", // Route untuk halaman products
+      path: "/products",
       element: <ProductsPageView />,
     },
     {
-      path: "/call-to-action", // Route untuk halaman call to action
+      path: "/call-to-action",
       element: <CallToActionPageView />,
     },
     {
-      path: "/contact", // Route untuk halaman contact
+      path: "/contact",
       element: <ContactPageView />,
     },
 ]);
