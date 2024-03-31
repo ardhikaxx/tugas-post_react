@@ -1,16 +1,16 @@
-import React from 'react';
-import Navbar from './navbar';
-import Footer from './footer';
-import LandingContent from './landing-content';
+import React from "react";
+import Navbar from "./navbar";
+import Footer from "./footer";
+import LandingContent from "./landing-content";
 
 const LandingPageView: React.FC = () => {
-    return (
-        <div>
-            <Navbar />
-            <LandingContent />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="flex flex-col h-screen">
+      <Navbar />
+      <LandingContent />
+      <Footer />
+    </div>
+  );
 };
 
 export default LandingPageView;
