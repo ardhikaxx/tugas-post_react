@@ -8,11 +8,21 @@ import ContactPageView from '../contact/contact-page-view';
 const LandingContent: React.FC = () => {
     return (
         <div>
-            <HomePageView />
-            <AboutPageView />
-            <ProductsPageView />
-            <CallToActionPageView />
-            <ContactPageView />
+            <section id="home">
+                <HomePageView />
+            </section>
+            <section id="about">
+                <AboutPageView />
+            </section>
+            <section id="products">
+                <ProductsPageView />
+            </section>
+            <section id="call-to-action">
+                <CallToActionPageView />
+            </section>
+            <section id="contact">
+                <ContactPageView />
+            </section>
         </div>
     );
 };
