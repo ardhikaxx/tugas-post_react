@@ -1,16 +1,11 @@
-import React from "react"
+import React from 'react';
 
-const HomePageView = () => {
+const HomePageView: React.FC = () => {
     return (
         <div>
-            <div className="text-2xl font-bold flex flex-row justify-center w-full">
-                Ini adalah halaman home
-            </div>
-            <div className="text-2xl font-bold flex flex-row justify-center w-full">
-                Ini adalah halaman home tapi dibawah
-            </div>
+            <h1>Welcome to Our Company</h1>
         </div>
-    )
-}
+    );
+};
 
-export default HomePageView
+export default HomePageView;
