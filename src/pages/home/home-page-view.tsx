@@ -8,8 +8,8 @@ const HomePageView: React.FC = () => {
           Welcome to Our Company
         </h1>
         <p className="mt-4 text-lg text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Explore our range of high-quality products designed to meet your
+          needs.
         </p>
         <div className="flex justify-center mt-6">
           <button className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
