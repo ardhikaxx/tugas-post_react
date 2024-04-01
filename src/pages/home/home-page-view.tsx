@@ -2,9 +2,9 @@ import React from "react";
 
 const HomePageView: React.FC = () => {
   return (
-    <div className="bg-gray-900 text-white h-screen flex justify-center items-center">
+    <div className="bg-hero-pattern bg-cover text-white h-screen flex justify-center items-center">
       <div>
-        <h1 className="text-4xl font-bold text-center bg-hero-pattern">
+        <h1 className="text-4xl font-bold text-center ">
           Welcome to Our Company
         </h1>
         <p className="mt-4 text-lg text-center">
