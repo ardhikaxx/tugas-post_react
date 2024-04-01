@@ -18,28 +18,28 @@ const Navbar: React.FC = () => {
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4 absolute right-0">
                 <Link
-                  to="about"
-                  className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  to="/about"
+                  className="text-white hover:bg-gray-700 px-5 py-3 rounded-md text-sm font-medium"
                 >
                   About
                 </Link>
                 <Link
-                  to="products"
-                  className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  to="/products"
+                  className="text-white hover:bg-gray-700 px-5 py-3 rounded-md text-sm font-medium"
                 >
                   Products
                 </Link>
                 <Link
-                  to="call-to-action"
-                  className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Call to Action
-                </Link>
-                <Link
-                  to="contact"
-                  className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                  to="/contact"
+                  className="text-white hover:bg-gray-700 px-5 py-3 rounded-md text-sm font-medium"
                 >
                   Contact
+                </Link>
+                <Link
+                  to="call-to-action"
+                  className="text-white bg-blue-700 hover:bg-blue-800 px-5 py-3 rounded-md text-sm font-medium"
+                >
+                  Sign up
                 </Link>
               </div>
             </div>

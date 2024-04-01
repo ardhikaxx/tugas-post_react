@@ -5,7 +5,7 @@ const HomePageView: React.FC = () => {
     <div className="bg-hero-pattern bg-cover text-white h-screen flex justify-center items-center">
       <div>
         <h1 className="text-4xl font-bold text-center ">
-          Welcome to Our Company
+          Welcome to ItemServer
         </h1>
         <p className="mt-4 text-lg text-center">
           Explore our range of high-quality products designed to meet your
